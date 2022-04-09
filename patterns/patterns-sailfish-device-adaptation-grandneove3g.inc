@@ -26,6 +26,9 @@ Requires: dummy_netd
 # Bluetooth
 Requires: bluebinder
 
+# Splash screen
+Requires: yamuisplash
+
 # Sensors
 Requires: hybris-libsensorfw-qt5
 
@@ -37,6 +40,7 @@ Requires: libngf-qt5-qtfeedback
 Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
+Requires: pulseaudio-modules-droid-jb2q
 Requires: pulseaudio-modules-droid-hidl
 
 # The -dummy-af is needed for newer devices that run the main
