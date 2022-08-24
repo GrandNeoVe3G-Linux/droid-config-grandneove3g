@@ -22,9 +22,11 @@ Requires: libhybris-libwayland-egl
 # Telephony
 Requires: ofono-ril-binder-plugin
 Requires: dummy_netd
+Requires: ofono-ril-plugin
 
 # Bluetooth
-Requires: bluebinder
+Requires: broadcom-bluetooth-bluez5
+Requires: bluetooth-rfkill-event-hciattach
 
 # Splash screen
 Requires: yamuisplash
@@ -58,6 +60,8 @@ Requires: qtscenegraph-adaptation
 
 # For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
+Requires: gstreamer1.0-droid-tools
+Requires: droid-camres
 Requires: gmp-droid
 
 # This is needed for notification LEDs

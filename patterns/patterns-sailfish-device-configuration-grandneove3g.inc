@@ -33,6 +33,10 @@ Requires: patterns-sailfish-consumer-generic
 # For Mozilla location services (online)
 Requires: geoclue-provider-mlsdb
 
+Requires: mce-tools
+Requires: connman-tools
+Requires: jolla-settings-system-flashlight
+
 # Devices with 2G or more memory should also include this booster
 # to improve camera startup times and the like
 #Requires: mapplauncherd-booster-silica-qt5-media
