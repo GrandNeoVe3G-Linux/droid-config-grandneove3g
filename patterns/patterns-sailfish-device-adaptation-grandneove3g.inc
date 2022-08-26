@@ -20,7 +20,7 @@ Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
 # Telephony
-Requires: ofono-ril-binder-plugin
+#Requires: ofono-ril-binder-plugin
 Requires: dummy_netd
 Requires: ofono-ril-plugin
 
@@ -60,12 +60,12 @@ Requires: qtscenegraph-adaptation
 
 # For hybris devices with droidmedia, see HADK pdf for more information
 Requires: gstreamer1.0-droid
-Requires: gstreamer1.0-droid-tools
-Requires: droid-camres
+#Requires: gstreamer1.0-droid-tools
+#Requires: droid-camres
 Requires: gmp-droid
 
 # This is needed for notification LEDs
-Requires: mce-plugin-libhybris
+#Requires: mce-plugin-libhybris
 
 # USB mode controller
 Requires: usb-moded
